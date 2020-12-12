@@ -14,7 +14,7 @@ class APIControlador extends ResourceController
 
     public function registrar(){
 
-        //1.Recibiendo datos desde el cliente
+        //1.Recibiendo datos desde el cliente para agregar sus datos.
         $nombre=$this->request->getPost("nombre");
 		$edad=$this->request->getPost("edad");
 		$tipo=$this->request->getPost("tipo");
